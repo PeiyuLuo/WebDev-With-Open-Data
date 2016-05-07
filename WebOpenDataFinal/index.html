@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Emails I Received Every hour</title>
+
+  <!-- include underscore library -->
+  <script type="text/javascript" src="underscore.js"></script>
+  <script type="text/javascript" src="jquery-2.2.0.min.js"></script>
+  <script src="d3.min.js"></script>
+
+  <style type="text/css">
+      h1{
+        color: #0b6b8b;
+      }
+      body{
+        padding-left: 3%;
+        padding-top: 40px;
+      }    
+  </style>
+</head>
+<body>
+  <h1>Emails I Received Every hour</h1>
+<select id="selectTag" onchange="getInfo()"></select>
+
+  <div id="dataviz"></div>
+  <script type="text/javascript" src="sketch.js"></script>
+</body>
+</html>
